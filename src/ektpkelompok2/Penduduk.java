@@ -13,6 +13,10 @@ public class Penduduk {
       
         wrg.add(new Warga("001", "Muh. Faizal Anshori", "Tulungagung, 21 April 1997", "L", "A", "Ngunut", "Islam", "Belum Kawin", "Mahasiswa", "WNI", "Seumur Hidup"));
         wrg.add(new Warga("002", "Septian Rio",         "Tulungagung, 2 juni 1997" ,  "L", "A", "Ngunut", "Islam", "Belum Kawin", "Mahasiswa", "WNI", "Seumur Hidup"));
+        wrg.add(new Warga("004", "Iwang",         "Tulungagung, 2 juni 1997" ,  "L", "A", "Ngunut", "Islam", "Belum Kawin", "Mahasiswa", "WNI", "Seumur Hidup"));
+        wrg.add(new Warga("005", "Ridi", "Tulungagung, 21 April 1997", "L", "A", "Ngunut", "Islam", "Belum Kawin", "Mahasiswa", "WNI", "Seumur Hidup"));
+        wrg.add(new Warga("006", "Malik",         "Tulungagung, 2 juni 1997" ,  "L", "A", "Ngunut", "Islam", "Belum Kawin", "Mahasiswa", "WNI", "Seumur Hidup"));
+
         wrg.add(new Warga("003", "Falianda", "Tanggerang, 8 Agustus 1998"));
         wrg.add(new Warga("004", "M. yusuf Iwang", "Lamongan, 29 Januari 1998"));
         wrg.add(new Warga("005", "Malik Fajar", "Manado, 9 juni 1997"));
