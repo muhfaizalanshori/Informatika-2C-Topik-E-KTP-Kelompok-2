@@ -12,12 +12,21 @@ private String stsperkawinan;
 private String pekerjaan;
 private String kewarganegaraan;
 private String berlaku;
-
-public Warga(String nikWarga, String namaWarga, String ttlWarga){
+        
+public Warga(String nikWarga, String namaWarga, String ttlWarga, String jenisWarga, String goldarahWarga, String alamatWarga, String agamaWarga, String stsperkawinanWarga, String pekerjaanWarga, String kewarganegaraanWarga, String berlakuWarga){
 setNik(nikWarga);
 setNama(namaWarga);
 setTtl(ttlWarga);
-}
+setJenis(jenisWarga);
+setgolDarah(goldarahWarga);
+setAlamat(alamatWarga);
+setAgama(agamaWarga);
+setstsPerkawinan(stsperkawinanWarga);
+setPekerjaan(pekerjaanWarga);
+setKewarganegaraan(kewarganegaraanWarga);
+setBerlaku(berlakuWarga);
+}    
+
 
 public void setNik(String nikWarga){
     this.nik = nikWarga;
@@ -37,7 +46,56 @@ this.ttl = ttlWarga;
 public String getTtl() {
 return ttl;
 }
-//selanjutnya belum
+
+public void setJenis(String jenisWarga) {
+this.jenis = jenisWarga;
+}
+public String getjenis() {
+return jenis;
+}
+public void setgolDarah(String goldarahWarga) {
+this.goldarah = goldarahWarga;
+}
+public String getgolDarah() {
+return goldarah;
+}
+public void setAlamat(String alamatWarga) {
+this.alamat = alamatWarga;
+}
+public String getAlamat() {
+return alamat;
+}
+public void setAgama(String agamaWarga) {
+this.agama = agamaWarga;
+}
+public String getAgama() {
+return agama;
+}
+public void setstsPerkawinan(String stsperkawinanWarga) {
+this.stsperkawinan = stsperkawinanWarga;
+}
+public String getstsPerkawinan() {
+return stsperkawinan;
+}
+public void setPekerjaan(String pekerjaanWarga) {
+this.pekerjaan = pekerjaanWarga;
+}
+public String getPekerjaan() {
+return pekerjaan;
+}
+public void setKewarganegaraan(String kewarganegaraanWarga) {
+this.kewarganegaraan = kewarganegaraanWarga;
+}
+public String getKewarganegaraan() {
+return kewarganegaraan;
+}
+public void setBerlaku(String berlakuWarga) {
+this.berlaku = berlakuWarga;
+}
+public String getberlaku() {
+return berlaku;
+}        
+
 
 
 @Override
