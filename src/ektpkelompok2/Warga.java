@@ -1,13 +1,9 @@
 package ektpkelompok2;
-/**
- *
- * @author FAISTAR
- */
+
     public class Warga implements Comparable<Warga> {
-private int nik;
+private String nik;
 private String nama;
-private String tempatlahir;
-private String tgllahir;
+private String ttl;
 private String jeniskelamin;
 private String goldarah;
 private String alamat;
@@ -17,16 +13,16 @@ private String pekerjaan;
 private String kewarganegaraan;
 private String berlaku;
 
-public Warga(int nikWarga, String namaWarga, String tempatlahirWarga){
+public Warga(String nikWarga, String namaWarga, String ttlWarga){
 setNik(nikWarga);
 setNama(namaWarga);
-setTempatlahir(tempatlahirWarga);
+setTtl(ttlWarga);
 }
 
-public void setNik(int nikWarga){
+public void setNik(String nikWarga){
     this.nik = nikWarga;
 }
-public int getNik(){
+public String getNik(){
 return nik;
 }
 public void setNama(String namaWarga) {
@@ -35,18 +31,17 @@ this.nama = namaWarga;
 public String getNama() {
 return nama;
 }
-public void setTempatlahir(String tempatlahirWarga) {
-this.tempatlahir = tempatlahirWarga;
+public void setTtl(String ttlWarga) {
+this.ttl = ttlWarga;
 }
-public String getTempatlahir() {
-return tempatlahir;
+public String getTtl() {
+return ttl;
 }
+//selanjutnya belum
 
 
 @Override
 public int compareTo(Warga w) {
-if(nama.compareTo(w.getNama()) < 0 ) return -1;
-if (nama.compareTo(w.getNama()) == 0) return 0;
 return 1;
 }
 
