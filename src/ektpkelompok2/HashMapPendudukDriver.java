@@ -18,5 +18,6 @@ dau.put("new", new Warga("C++", "Bagus"));
 for(warga a : dau.values()){
 System.out.println(a.getNama()); //tanpa cetak key
 }
-  */  
+  */ 
+  }
 }
