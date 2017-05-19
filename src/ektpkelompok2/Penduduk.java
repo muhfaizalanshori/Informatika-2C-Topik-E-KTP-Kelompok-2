@@ -13,13 +13,27 @@ public class Penduduk {
       
         wrg.add(new Warga("001", "Muh. Faizal Anshori", "Tulungagung, 21 April 1997", "L", "A", "Ngunut", "Islam", "Belum Kawin", "Mahasiswa", "WNI", "Seumur Hidup"));
         wrg.add(new Warga("002", "Septian Rio",         "Tulungagung, 2 juni 1997" ,  "L", "A", "Ngunut", "Islam", "Belum Kawin", "Mahasiswa", "WNI", "Seumur Hidup"));
-        wrg.add(new Warga("004", "Iwang",         "Tulungagung, 2 juni 1997" ,  "L", "A", "Ngunut", "Islam", "Belum Kawin", "Mahasiswa", "WNI", "Seumur Hidup"));
-        wrg.add(new Warga("005", "Ridi", "Tulungagung, 21 April 1997", "L", "A", "Ngunut", "Islam", "Belum Kawin", "Mahasiswa", "WNI", "Seumur Hidup"));
-        wrg.add(new Warga("006", "Malik",         "Tulungagung, 2 juni 1997" ,  "L", "A", "Ngunut", "Islam", "Belum Kawin", "Mahasiswa", "WNI", "Seumur Hidup"));
-
-        wrg.add(new Warga("003", "Falianda", "Tanggerang, 8 Agustus 1998"));
-        wrg.add(new Warga("004", "M. yusuf Iwang", "Lamongan, 29 Januari 1998"));
-        wrg.add(new Warga("005", "Malik Fajar", "Manado, 9 juni 1997"));
+       wrg.add(new Warga("003", "Falianda PW"   , "Tulungagung, 21 April 1997", "L", "A", "Ngunut", "Islam", "Belum Kawin", "Mahasiswa", "WNI", "Seumur Hidup"));
+        wrg.add(new Warga("004", "Yusuf Iwang"   , "Tulungagung, 2 juni 1997" ,  "L", "A", "Ngunut", "Islam", "Belum Kawin", "Mahasiswa", "WNI", "Seumur Hidup"));
+        wrg.add(new Warga("005", "Ridi Pratama"  , "Tulungagung, 21 April 1997", "L", "A", "Ngunut", "Islam", "Belum Kawin", "Mahasiswa", "WNI", "Seumur Hidup"));
+        wrg.add(new Warga("006", "Malik Fajar"   , "Tulungagung, 2 juni 1997" ,  "L", "A", "Ngunut", "Islam", "Belum Kawin", "Mahasiswa", "WNI", "Seumur Hidup"));
+        wrg.add(new Warga("007", "Malik Fajar"   , "Tulungagung, 2 juni 1997" ,  "L", "A", "Ngunut", "Islam", "Belum Kawin", "Mahasiswa", "WNI", "Seumur Hidup"));
+        wrg.add(new Warga("008", "Malik Fajar"   , "Tulungagung, 2 juni 1997" ,  "L", "A", "Ngunut", "Islam", "Belum Kawin", "Mahasiswa", "WNI", "Seumur Hidup"));
+        wrg.add(new Warga("009", "Malik Fajar"   , "Tulungagung, 2 juni 1997" ,  "L", "A", "Ngunut", "Islam", "Belum Kawin", "Mahasiswa", "WNI", "Seumur Hidup"));
+        wrg.add(new Warga("010", "Riyantu K"   , "Tulungagung, 2 juni 1997" ,  "L", "A", "Ngunut", "Islam", "Belum Kawin", "Mahasiswa", "WNI", "Seumur Hidup"));
+        wrg.add(new Warga("011", "Sirril A"   , "Tulungagung, 2 juni 1997" ,  "L", "A", "Ngunut", "Islam", "Belum Kawin", "Mahasiswa", "WNI", "Seumur Hidup"));
+        wrg.add(new Warga("012", "Malik Fajar"   , "Tulungagung, 2 juni 1997" ,  "L", "A", "Ngunut", "Islam", "Belum Kawin", "Mahasiswa", "WNI", "Seumur Hidup"));
+        wrg.add(new Warga("013", "Malik Fajar"   , "Tulungagung, 2 juni 1997" ,  "L", "A", "Ngunut", "Islam", "Belum Kawin", "Mahasiswa", "WNI", "Seumur Hidup"));
+        wrg.add(new Warga("014", "Malik Fajar"   , "Tulungagung, 2 juni 1997" ,  "L", "A", "Ngunut", "Islam", "Belum Kawin", "Mahasiswa", "WNI", "Seumur Hidup"));
+        wrg.add(new Warga("015", "Malik Fajar"   , "Tulungagung, 2 juni 1997" ,  "L", "A", "Ngunut", "Islam", "Belum Kawin", "Mahasiswa", "WNI", "Seumur Hidup"));
+        wrg.add(new Warga("016", "Malik Fajar"   , "Tulungagung, 2 juni 1997" ,  "L", "A", "Ngunut", "Islam", "Belum Kawin", "Mahasiswa", "WNI", "Seumur Hidup"));
+        wrg.add(new Warga("017", "Malik Fajar"   , "Tulungagung, 2 juni 1997" ,  "L", "A", "Ngunut", "Islam", "Belum Kawin", "Mahasiswa", "WNI", "Seumur Hidup"));
+        wrg.add(new Warga("018", "Malik Fajar"   , "Tulungagung, 2 juni 1997" ,  "L", "A", "Ngunut", "Islam", "Belum Kawin", "Mahasiswa", "WNI", "Seumur Hidup"));
+        wrg.add(new Warga("019", "Malik Fajar"   , "Tulungagung, 2 juni 1997" ,  "L", "A", "Ngunut", "Islam", "Belum Kawin", "Mahasiswa", "WNI", "Seumur Hidup"));
+        wrg.add(new Warga("020", "Malik Fajar"   , "Tulungagung, 2 juni 1997" ,  "L", "A", "Ngunut", "Islam", "Belum Kawin", "Mahasiswa", "WNI", "Seumur Hidup"));
+        wrg.add(new Warga("021", "Malik Fajar"   , "Tulungagung, 2 juni 1997" ,  "L", "A", "Ngunut", "Islam", "Belum Kawin", "Mahasiswa", "WNI", "Seumur Hidup"));
+        wrg.add(new Warga("022", "Malik Fajar"   , "Tulungagung, 2 juni 1997" ,  "L", "A", "Ngunut", "Islam", "Belum Kawin", "Mahasiswa", "WNI", "Seumur Hidup"));
+         
        
        /* rt.add(new Rt (wrg.get(3)));
         
