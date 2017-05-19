@@ -1,53 +1,48 @@
 package ektpkelompok2;
-/**
- *
- * @author FAISTAR
- */
-    public class Warga implements Comparable<Warga> {
-private String nik;
-private String nama;
-private String ttl;
-private String jeniskelamin;
-private String goldarah;
-private String alamat;
-private String agama;
-private String stsperkawinan;
-private String pekerjaan;
-private String kewarganegaraan;
-private String berlaku;
 
-public Warga(String nikWarga, String namaWarga, String ttlWarga){
-setNik(nikWarga);
-setNama(namaWarga);
-setTtl(ttlWarga);
-}
-
-public void setNik(String nikWarga){
-    this.nik = nikWarga;
-}
-public String getNik(){
-return nik;
-}
-public void setNama(String namaWarga) {
-this.nama = namaWarga;
-}
-public String getNama() {
-return nama;
-}
-public void setTtl(String ttlWarga) {
-this.ttl = ttlWarga;
-}
-public String getTtl() {
-return ttl;
-}
-//selanjutnya belum
+import java.util.ArrayList;
+//import java.util.Iterator;
 
 
-@Override
-public int compareTo(Warga w) {
-return 1;
-}
-
-}
+public class Penduduk {
     
-
+    public static void main(String[] args) {
+        ArrayList <Warga> wrg = new ArrayList<Warga>();
+        ArrayList <Rt> rt = new ArrayList<Rt>();
+        
+      
+        wrg.add(new Warga("001", "Muh. Faizal Anshori", "Tulungagung, 21 April 1997"));
+        wrg.add(new Warga("002", "Septian Rio", "Tulungagung, 2 juni 1997"));
+        wrg.add(new Warga("003", "Falianda", "Tanggerang, 8 Agustus 1998"));
+        wrg.add(new Warga("004", "M. yusuf Iwang", "Lamongan, 29 Januari 1998"));
+        wrg.add(new Warga("005", "Malik Fajar", "Manado, 9 juni 1997"));
+       
+        rt.add(new Rt (wrg.get(3)));
+        
+        for (Rt r: rt ){
+            System.out.println(r.getWarga().getNama()+"\n");
+            
+            
+        
+        for(Warga w: wrg ){
+            System.out.print(w.getNik()+"\t");
+            System.out.print(w.getNama()+"\t");
+            System.out.println(w.getTtl());
+            
+            
+        /*    
+        for(String nik: wrg0 ){
+            System.out.println(nik);
+         */
+        /*
+        Iterator it = wrg0.iterator();
+        
+        while(it.hasNext()){
+            System.out.println(it.next());
+        
+        }
+        */
+        }
+    }
+    }
+}
