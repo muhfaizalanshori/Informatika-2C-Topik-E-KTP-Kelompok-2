@@ -3,6 +3,7 @@ package ektpkelompok2;
 
 
 public class Rt implements Comparable<Rt>{
+    /*
     private Warga warga, warga2, warga3, warga4, warga5;
     
     public Rt(Warga warga){
@@ -80,4 +81,5 @@ public class Rt implements Comparable<Rt>{
         return 1;
     
     }
+    */
 }
