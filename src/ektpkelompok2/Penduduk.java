@@ -14,7 +14,25 @@ public class Penduduk {
     private static ArrayList<Warga> desa2rt3 = new ArrayList();
     private static ArrayList<Warga> desa2rt4 = new ArrayList();
     
-    
+      public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
+        int a,b,c,d,e;
+        String data1,data2,data3,data4,data5,data6,data7,data8,data9, data10;
+        do {            
+            System.out.println("\tPendaftaran Penduduk\n");
+            System.out.println("1. Masukan Data Desa 1");
+            System.out.println("2. Masukan Data Desa 2");
+            System.out.println("3. Daftar Data Warga Desa");
+            System.out.println("4. Cek Data Warga setelah di Urutkan");
+            System.out.println("5. Keluar");
+            System.out.print("Pilih Kategori: ");a=scan.nextInt();
+            if(a==1){
+                System.out.println("\n\tDesa 1");
+                System.out.println("RT 1");           
+                System.out.println("RT 2");
+                System.out.println("RT 3");
+                System.out.println("RT 4");
+                System.out.println("Pilih RT");b=scan.nextInt();scan.nextLine();
     
     
     
