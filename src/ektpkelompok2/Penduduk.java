@@ -83,6 +83,62 @@ public class Penduduk {
                     desa1rt4.add(new Warga(data1, data2, data3, data4, data5, data6, data7, data8));
                 }
             }
+                else if(a==2){
+                System.out.println("\n2\tDesa 2");
+                System.out.println("RT 1");
+                System.out.println("RT 2");
+                System.out.println("RT 3");
+                System.out.println("RT 4");
+                System.out.println("Pilih RT");c=scan.nextInt();scan.nextLine();
+                if(c==1){
+                    System.out.println("\tRT 1");
+                    System.out.print("Nik : ");data1=scan.nextLine();
+                    System.out.print("Nama : ");data2=scan.nextLine();
+                    System.out.print("TTL : ");data3=scan.nextLine();
+                    System.out.print("Jenis Kelamin : ");data4=scan.nextLine();          
+                    System.out.print("Alamat : ");data5=scan.nextLine();
+                    System.out.print("Agama : ");data6=scan.nextLine();
+                    System.out.print("Pekerjaan : ");data7=scan.nextLine();
+                    System.out.print("Kewarganegaraan : ");data8=scan.nextLine();  
+                    desa2rt1.add(new Warga(data1, data2, data3, data4, data5, data6, data7, data8));
+                }
+                else if (c==2) {
+                    System.out.println("\tRT 2");
+                    System.out.print("Nik : ");data1=scan.nextLine();
+                    System.out.print("Nama : ");data2=scan.nextLine();
+                    System.out.print("TTL : ");data3=scan.nextLine();
+                    System.out.print("Jenis Kelamin : ");data4=scan.nextLine();          
+                    System.out.print("Alamat : ");data5=scan.nextLine();
+                    System.out.print("Agama : ");data6=scan.nextLine();
+                    System.out.print("Pekerjaan : ");data7=scan.nextLine();
+                    System.out.print("Kewarganegaraan : ");data8=scan.nextLine();  
+                    desa2rt3.add(new Warga(data1, data2, data3, data4, data5, data6, data7, data8));
+                }
+                else if (c==3) {
+                    System.out.println("\tRT 3");
+                    System.out.print("Nik : ");data1=scan.nextLine();
+                    System.out.print("Nama : ");data2=scan.nextLine();
+                    System.out.print("TTL : ");data3=scan.nextLine();
+                    System.out.print("Jenis Kelamin : ");data4=scan.nextLine();          
+                    System.out.print("Alamat : ");data5=scan.nextLine();
+                    System.out.print("Agama : ");data6=scan.nextLine();
+                    System.out.print("Pekerjaan : ");data7=scan.nextLine();
+                    System.out.print("Kewarganegaraan : ");data8=scan.nextLine();  
+                    desa2rt3.add(new Warga(data1, data2, data3, data4, data5, data6, data7, data8));
+                }
+                else if (c==4){
+                    System.out.println("\tRT 4");
+                    System.out.print("Nik : ");data1=scan.nextLine();
+                    System.out.print("Nama : ");data2=scan.nextLine();
+                    System.out.print("TTL : ");data3=scan.nextLine();
+                    System.out.print("Jenis Kelamin : ");data4=scan.nextLine();          
+                    System.out.print("Alamat : ");data5=scan.nextLine();
+                    System.out.print("Agama : ");data6=scan.nextLine();
+                    System.out.print("Pekerjaan : ");data7=scan.nextLine();
+                    System.out.print("Kewarganegaraan : ");data8=scan.nextLine();  
+                    desa2rt4.add(new Warga (data1, data2, data3, data4, data5, data6, data7, data8));
+                }
+            }
     
     
     
