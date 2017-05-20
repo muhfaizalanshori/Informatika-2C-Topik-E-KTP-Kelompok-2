@@ -139,16 +139,26 @@ public class Penduduk {
                     desa2rt4.add(new Warga (data1, data2, data3, data4, data5, data6, data7, data8));
                 }
             }
-    
+     }
+            else if (a==4) {
+                System.out.println("\t Mengurutkan Data Penduduk");
+                System.out.println("1. desa1 RT 1");
+                System.out.println("2. desa 1 RT 2");
+                System.out.println("3. kelurahan 1 RT 3");
+                System.out.println("4. kelurahan 1 RT 4");
+                System.out.println("5. kelurahan 2 RT 1");
+                System.out.println("6. kelurahan 2 RT 2");
+                System.out.println("7. kelurahan 2 RT 3");
+                System.out.println("8. kelurahan 2 RT 4");
+                System.out.println("Pilih Data  Yang Ingin Dilihat : ");e=scan.nextInt();
     
     
     
     
    
-    
-    
-    
-  
-            
        
-} 
+       
+   }
+        } while (a<5);
+            
+    }
