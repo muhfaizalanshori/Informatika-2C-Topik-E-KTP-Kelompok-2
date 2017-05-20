@@ -1,12 +1,31 @@
 package ektpkelompok2;
 
-import java.util.ArrayList;
-//import java.util.Iterator;
+import java.util.*;
 
 
 public class Penduduk {
     
-    public static void main(String[] args) {
+    private static ArrayList<Warga> desa1rt1 = new ArrayList();
+    private static ArrayList<Warga> desa1rt2 = new ArrayList();
+    private static ArrayList<Warga> desa1rt3 = new ArrayList();
+    private static ArrayList<Warga> desa1rt4 = new ArrayList();
+    private static ArrayList<Warga> desa2rt1 = new ArrayList();
+    private static ArrayList<Warga> desa2rt2 = new ArrayList();
+    private static ArrayList<Warga> desa2rt3 = new ArrayList();
+    private static ArrayList<Warga> desa2rt4 = new ArrayList();
+    
+    
+    
+    
+    
+    
+    
+   
+    
+    
+    
+    
+   /* public static void main(String[] args) {
         ArrayList <Warga> wrg = new ArrayList<Warga>();
         ArrayList <Rt> rt = new ArrayList<Rt>();
         
@@ -41,7 +60,7 @@ public class Penduduk {
             System.out.println(r.getWarga().getNama()+"\n");
          */   
             
-        
+        /*
         for(Warga w: wrg ){
             System.out.print(w.getNik()+"\t");
             System.out.print(w.getNama()+"\t");
@@ -66,8 +85,8 @@ public class Penduduk {
             System.out.println(it.next());
         
         }
-        */
+        
         }
     }
-    }
-}
+    } */
+} 
