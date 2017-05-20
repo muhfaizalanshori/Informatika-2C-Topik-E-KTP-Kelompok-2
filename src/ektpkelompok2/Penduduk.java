@@ -72,39 +72,8 @@ public class Penduduk {
         wrg.add(new Warga("022", "Malik Fajar"   , "Tulungagung, 2 juni 1997" ,  "L", "A", "Ngunut", "Islam", "Belum Kawin", "Mahasiswa", "WNI", "Seumur Hidup"));
         wrg.add(new Warga("023", "Falianda P W" , "Tangerang, 26 Maret 1998" , "P", "O", "Pasar Kemis", "Islam" , "Belum kawin", "Mahasiswa", "WNI", "Seumur Hidup"));
        
-       /* rt.add(new Rt (wrg.get(3)));
-        
-        for (Rt r: rt ){
-            System.out.println(r.getWarga().getNama()+"\n");
-         */   
+      */
+      
             
-        /*
-        for(Warga w: wrg ){
-            System.out.print(w.getNik()+"\t");
-            System.out.print(w.getNama()+"\t");
-            System.out.print(w.getTtl()+"\t");
-            System.out.print(w.getjenis()+"\t");
-            System.out.print(w.getAlamat()+"\t");
-            System.out.print(w.getAgama()+"\t");
-            System.out.print(w.getstsPerkawinan()+"\t");
-            System.out.print(w.getPekerjaan()+"\t");
-            System.out.print(w.getKewarganegaraan()+"\t");
-            System.out.println(w.getberlaku());
-            
-            
-        /*    
-        for(String nik: wrg0 ){
-            System.out.println(nik);
-         */
-        /*
-        Iterator it = wrg0.iterator();
-        
-        while(it.hasNext()){
-            System.out.println(it.next());
-        
-        }
-        
-        }
-    }
-    } */
+       
 } 
