@@ -33,6 +33,56 @@ public class Penduduk {
                 System.out.println("RT 3");
                 System.out.println("RT 4");
                 System.out.println("Pilih RT");b=scan.nextInt();scan.nextLine();
+                
+                 if(b==1){
+                    System.out.println("\tRT 1");
+                    System.out.print("Nik : ");data1=scan.nextLine();
+                    System.out.print("Nama : ");data2=scan.nextLine();
+                    System.out.print("TTL : ");data3=scan.nextLine();
+                    System.out.print("Jenis Kelamin : ");data4=scan.nextLine();          
+                    System.out.print("Alamat : ");data5=scan.nextLine();
+                    System.out.print("Agama : ");data6=scan.nextLine();
+                    System.out.print("Pekerjaan : ");data7=scan.nextLine();
+                    System.out.print("Kewarganegaraan : ");data8=scan.nextLine();                 
+                    desa1rt1.add(new Warga(data1, data2, data3, data4, data5, data6, data7, data8);
+                }
+                else if (b==2) {
+                    System.out.println("\tRT 2");
+                    System.out.print("Nik : ");data1=scan.nextLine();
+                    System.out.print("Nama : ");data2=scan.nextLine();
+                    System.out.print("TTL : ");data3=scan.nextLine();
+                    System.out.print("Jenis Kelamin : ");data4=scan.nextLine();          
+                    System.out.print("Alamat : ");data5=scan.nextLine();
+                    System.out.print("Agama : ");data6=scan.nextLine();
+                    System.out.print("Pekerjaan : ");data7=scan.nextLine();
+                    System.out.print("Kewarganegaraan : ");data8=scan.nextLine();  
+                    desa1rt2.add(new Warga(data1, data2, data3, data4, data5, data6, data7, data8));
+                }
+                else if (b==3) {
+                    System.out.println("\tRT 3");
+                    System.out.print("Nik : ");data1=scan.nextLine();
+                    System.out.print("Nama : ");data2=scan.nextLine();
+                    System.out.print("TTL : ");data3=scan.nextLine();
+                    System.out.print("Jenis Kelamin : ");data4=scan.nextLine();          
+                    System.out.print("Alamat : ");data5=scan.nextLine();
+                    System.out.print("Agama : ");data6=scan.nextLine();
+                    System.out.print("Pekerjaan : ");data7=scan.nextLine();
+                    System.out.print("Kewarganegaraan : ");data8=scan.nextLine();  
+                    desa1rt3.add(new Warga(data1, data2, data3, data4, data5, data6, data7, data8));
+                }
+                else if (b==4){
+                    System.out.println("\tRT 4");
+                    System.out.print("Nik : ");data1=scan.nextLine();
+                    System.out.print("Nama : ");data2=scan.nextLine();
+                    System.out.print("TTL : ");data3=scan.nextLine();
+                    System.out.print("Jenis Kelamin : ");data4=scan.nextLine();          
+                    System.out.print("Alamat : ");data5=scan.nextLine();
+                    System.out.print("Agama : ");data6=scan.nextLine();
+                    System.out.print("Pekerjaan : ");data7=scan.nextLine();
+                    System.out.print("Kewarganegaraan : ");data8=scan.nextLine();  
+                    desa1rt4.add(new Warga(data1, data2, data3, data4, data5, data6, data7, data8));
+                }
+            }
     
     
     
@@ -42,38 +92,7 @@ public class Penduduk {
     
     
     
-    
-   /* public static void main(String[] args) {
-        ArrayList <Warga> wrg = new ArrayList<Warga>();
-        ArrayList <Rt> rt = new ArrayList<Rt>();
-        
-      
-        wrg.add(new Warga("001", "Muh. Faizal Anshori", "Tulungagung, 21 April 1997", "L", "A", "Ngunut", "Islam", "Belum Kawin", "Mahasiswa", "WNI", "Seumur Hidup"));
-        wrg.add(new Warga("002", "Septian Rio",         "Tulungagung, 2 juni 1997" ,  "L", "A", "Ngunut", "Islam", "Belum Kawin", "Mahasiswa", "WNI", "Seumur Hidup"));
-        wrg.add(new Warga("003", "Falianda PW"   , "Tulungagung, 21 April 1997", "P", "O", "Pasar Kemis", "Islam", "Belum Kawin", "Mahasiswa", "WNI", "Seumur Hidup"));
-        wrg.add(new Warga("004", "Yusuf Iwang"   , "Tulungagung, 2 juni 1997" ,  "L", "A", "Ngunut", "Islam", "Belum Kawin", "Mahasiswa", "WNI", "Seumur Hidup"));
-        wrg.add(new Warga("005", "Ridi Pratama"  , "Tulungagung, 21 April 1997", "L", "A", "Ngunut", "Islam", "Belum Kawin", "Mahasiswa", "WNI", "Seumur Hidup"));
-        wrg.add(new Warga("006", "Malik Fajar"   , "Tulungagung, 2 juni 1997" ,  "L", "A", "Ngunut", "Islam", "Belum Kawin", "Mahasiswa", "WNI", "Seumur Hidup"));
-        wrg.add(new Warga("007", "Malik Fajar"   , "Tulungagung, 2 juni 1997" ,  "L", "A", "Ngunut", "Islam", "Belum Kawin", "Mahasiswa", "WNI", "Seumur Hidup"));
-        wrg.add(new Warga("008", "Malik Fajar"   , "Tulungagung, 2 juni 1997" ,  "L", "A", "Ngunut", "Islam", "Belum Kawin", "Mahasiswa", "WNI", "Seumur Hidup"));
-        wrg.add(new Warga("009", "Malik Fajar"   , "Tulungagung, 2 juni 1997" ,  "L", "A", "Ngunut", "Islam", "Belum Kawin", "Mahasiswa", "WNI", "Seumur Hidup"));
-        wrg.add(new Warga("010", "Riyantu K"   , "Tulungagung, 2 juni 1997" ,  "L", "A", "Ngunut", "Islam", "Belum Kawin", "Mahasiswa", "WNI", "Seumur Hidup"));
-        wrg.add(new Warga("011", "Sirril A"   , "Tulungagung, 2 juni 1997" ,  "L", "A", "Ngunut", "Islam", "Belum Kawin", "Mahasiswa", "WNI", "Seumur Hidup"));
-        wrg.add(new Warga("012", "Malik Fajar"   , "Tulungagung, 2 juni 1997" ,  "L", "A", "Ngunut", "Islam", "Belum Kawin", "Mahasiswa", "WNI", "Seumur Hidup"));
-        wrg.add(new Warga("013", "Malik Fajar"   , "Tulungagung, 2 juni 1997" ,  "L", "A", "Ngunut", "Islam", "Belum Kawin", "Mahasiswa", "WNI", "Seumur Hidup"));
-        wrg.add(new Warga("014", "Malik Fajar"   , "Tulungagung, 2 juni 1997" ,  "L", "A", "Ngunut", "Islam", "Belum Kawin", "Mahasiswa", "WNI", "Seumur Hidup"));
-        wrg.add(new Warga("015", "Malik Fajar"   , "Tulungagung, 2 juni 1997" ,  "L", "A", "Ngunut", "Islam", "Belum Kawin", "Mahasiswa", "WNI", "Seumur Hidup"));
-        wrg.add(new Warga("016", "Malik Fajar"   , "Tulungagung, 2 juni 1997" ,  "L", "A", "Ngunut", "Islam", "Belum Kawin", "Mahasiswa", "WNI", "Seumur Hidup"));
-        wrg.add(new Warga("017", "Malik Fajar"   , "Tulungagung, 2 juni 1997" ,  "L", "A", "Ngunut", "Islam", "Belum Kawin", "Mahasiswa", "WNI", "Seumur Hidup"));
-        wrg.add(new Warga("018", "Malik Fajar"   , "Tulungagung, 2 juni 1997" ,  "L", "A", "Ngunut", "Islam", "Belum Kawin", "Mahasiswa", "WNI", "Seumur Hidup"));
-        wrg.add(new Warga("019", "Malik Fajar"   , "Tulungagung, 2 juni 1997" ,  "L", "A", "Ngunut", "Islam", "Belum Kawin", "Mahasiswa", "WNI", "Seumur Hidup"));
-        wrg.add(new Warga("020", "Malik Fajar"   , "Tulungagung, 2 juni 1997" ,  "L", "A", "Ngunut", "Islam", "Belum Kawin", "Mahasiswa", "WNI", "Seumur Hidup"));
-        wrg.add(new Warga("021", "Malik Fajar"   , "Tulungagung, 2 juni 1997" ,  "L", "A", "Ngunut", "Islam", "Belum Kawin", "Mahasiswa", "WNI", "Seumur Hidup"));
-        wrg.add(new Warga("022", "Malik Fajar"   , "Tulungagung, 2 juni 1997" ,  "L", "A", "Ngunut", "Islam", "Belum Kawin", "Mahasiswa", "WNI", "Seumur Hidup"));
-        wrg.add(new Warga("023", "Falianda P W" , "Tangerang, 26 Maret 1998" , "P", "O", "Pasar Kemis", "Islam" , "Belum kawin", "Mahasiswa", "WNI", "Seumur Hidup"));
-       
-      */
-      
+  
             
        
 } 
