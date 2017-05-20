@@ -11,9 +11,11 @@ public class Warga implements Comparable<Warga> {
     private String stsperkawinan;
     private String pekerjaan;
     private String kewarganegaraan;
-    private String berlaku;
+ 
         
-public Warga(String nikWarga, String namaWarga, String ttlWarga, String jenisWarga, String goldarahWarga, String alamatWarga, String agamaWarga, String stsperkawinanWarga, String pekerjaanWarga, String kewarganegaraanWarga, String berlakuWarga){
+public Warga(String nikWarga, String namaWarga, String ttlWarga, String jenisWarga, String goldarahWarga,
+             String alamatWarga, String agamaWarga, String stsperkawinanWarga, String pekerjaanWarga, 
+             String kewarganegaraanWarga){
     setNik(nikWarga);
     setNama(namaWarga);
     setTtl(ttlWarga);
@@ -24,7 +26,7 @@ public Warga(String nikWarga, String namaWarga, String ttlWarga, String jenisWar
     setstsPerkawinan(stsperkawinanWarga);
     setPekerjaan(pekerjaanWarga);
     setKewarganegaraan(kewarganegaraanWarga);
-    setBerlaku(berlakuWarga);
+  
 }    
 
 
@@ -108,13 +110,7 @@ public String getKewarganegaraan() {
     return kewarganegaraan;
 }
     
-public void setBerlaku(String berlakuWarga) {
-    this.berlaku = berlakuWarga;
-}
-    
-public String getberlaku() {
-    return berlaku;
-}        
+        
 
 @Override
 public int compareTo(Warga w) {
@@ -138,8 +134,7 @@ public int compareTo(Warga w) {
         if (pekerjaan.compareTo(w.getPekerjaan()) == 0) return 0;
         if(kewarganegaraan.compareTo(w.getKewarganegaraan()) < 0 ) return -1;
         if (kewarganegaraan.compareTo(w.getKewarganegaraan()) == 0) return 0;
-        if(berlaku.compareTo(w.getberlaku()) < 0 ) return -1;
-        if (berlaku.compareTo(w.getberlaku()) == 0) return 0;
+       
 return 1;
 }
 
