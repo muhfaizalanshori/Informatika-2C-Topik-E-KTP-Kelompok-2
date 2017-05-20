@@ -118,6 +118,28 @@ public String getberlaku() {
 
 @Override
 public int compareTo(Warga w) {
+        if(nik.compareTo(w.getNik()) < 0 ) return -1;
+        if (nik.compareTo(w.getNik()) == 0) return 0;          
+        if(nama.compareTo(w.getNama()) < 0 ) return -1;
+        if (nama.compareTo(w.getNama()) == 0) return 0;          
+        if(ttl.compareTo(w.getTtl()) < 0 ) return -1;
+        if (ttl.compareTo(w.getTtl()) == 0) return 0;
+        if(jenis.compareTo(w.getjenis()) < 0 ) return -1;
+        if (jenis.compareTo(w.getjenis()) == 0) return 0;
+        if(goldarah.compareTo(w.getgolDarah()) < 0 ) return -1;
+        if (goldarah.compareTo(w.getgolDarah()) == 0) return 0;
+        if(alamat.compareTo(w.getAlamat()) < 0 ) return -1;
+        if (alamat.compareTo(w.getAlamat()) == 0) return 0;
+        if(agama.compareTo(w.getAgama()) < 0 ) return -1;
+        if (agama.compareTo(w.getAgama()) == 0) return 0;
+        if(stsperkawinan.compareTo(w.getstsPerkawinan()) < 0 ) return -1;
+        if (stsperkawinan.compareTo(w.getstsPerkawinan()) == 0) return 0;
+        if(pekerjaan.compareTo(w.getPekerjaan()) < 0 ) return -1;
+        if (pekerjaan.compareTo(w.getPekerjaan()) == 0) return 0;
+        if(kewarganegaraan.compareTo(w.getKewarganegaraan()) < 0 ) return -1;
+        if (kewarganegaraan.compareTo(w.getKewarganegaraan()) == 0) return 0;
+        if(berlaku.compareTo(w.getberlaku()) < 0 ) return -1;
+        if (berlaku.compareTo(w.getberlaku()) == 0) return 0;
 return 1;
 }
 
